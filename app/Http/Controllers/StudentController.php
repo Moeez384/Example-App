@@ -69,6 +69,10 @@ class StudentController extends Controller
 
     public function hello()
     {
+<<<<<<< HEAD
         return "Just returing Hello";
+=======
+        return "Hello World";
+>>>>>>> Moiz
     }
 }
