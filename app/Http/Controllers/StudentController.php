@@ -66,14 +66,4 @@ class StudentController extends Controller
         $student = Student::where('id', $request->id)->first();
         return response()->json($student);
     }
-
-    public function hello()
-    {
-        return "Just returing Hello";
-    }
-
-    public function test()
-    {
-        return "Test from Main";
-    }
 }
